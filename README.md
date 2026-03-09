@@ -109,10 +109,9 @@ Java-based implementation of **Huffman Encoding** using custom heap data structu
 # 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rahul2-5&show_icons=true&theme=radical" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rahul2-5&layout=compact&theme=radical" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Rahul2-5&show_icons=true&theme=radical&hide_border=true&cache_seconds=1800" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rahul2-5&layout=compact&theme=radical&hide_border=true&cache_seconds=1800" height="180"/>
 </p>
-
 ---
 
 # 📫 Connect With Me
@@ -129,4 +128,8 @@ Java-based implementation of **Huffman Encoding** using custom heap data structu
 <a href="https://github.com/Rahul2-5">
 <img src="https://img.shields.io/badge/GitHub-black?style=flat&logo=github&logoColor=white"/>
 </a>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Rahul2-5&theme=radical&hide_border=true"/>
 </p>
