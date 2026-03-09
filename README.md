@@ -6,6 +6,7 @@
 ## 👨‍💻 About Me
 
 - 🎓 BCA Graduate – **Yashwantrao Chavan Maharashtra Open University**
+- 🎓 Currently pursuing **MCA – Mumbai Educational Trust (MET)**
 - 📱 Passionate about building **mobile applications with Flutter**
 - ⚙️ Backend development using **Spring Boot & REST APIs**
 - 🔐 Interested in **secure backend architecture & authentication systems**
@@ -39,7 +40,6 @@
 
 **Tools**
 - Git & GitHub
-- Kafka (Basic)
 - Firebase
 
 ---
