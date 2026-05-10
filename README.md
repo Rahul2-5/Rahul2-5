@@ -245,78 +245,18 @@ A full-stack AI application that automates corporate expense auditing — detect
 
 ---
 
-## 📡 Skill Radar
+## 📡 Skill Proficiency
 
 <div align="center">
 
-<svg viewBox="0 0 680 480" xmlns="http://www.w3.org/2000/svg" width="500" height="380">
-
-  <!-- Background -->
-  <rect width="680" height="480" fill="#0d1117" rx="12"/>
-
-  <!-- Title -->
-  <text x="340" y="30" text-anchor="middle" font-family="Courier New, monospace" font-size="14" font-weight="bold" fill="#e6edf3">◈ SKILL RADAR</text>
-  <text x="340" y="46" text-anchor="middle" font-family="Courier New, monospace" font-size="10" fill="#484f58">// rahul.temkar — tech proficiency map</text>
-
-  <!-- Rings (20 / 40 / 60 / 80 / 100%) — center 340,255 max-r 170 -->
-  <polygon points="340,221 369.4,238 369.4,272 340,289 310.6,272 310.6,238" fill="none" stroke="#30363d" stroke-width="1"/>
-  <polygon points="340,187 398.9,221 398.9,289 340,323 281.1,289 281.1,221" fill="none" stroke="#30363d" stroke-width="1"/>
-  <polygon points="340,153 428.3,204 428.3,306 340,357 251.7,306 251.7,204" fill="none" stroke="#30363d" stroke-width="1"/>
-  <polygon points="340,119 457.7,187 457.7,323 340,391 222.3,323 222.3,187" fill="none" stroke="#30363d" stroke-width="1"/>
-  <polygon points="340,85 487.2,170 487.2,340 340,425 192.8,340 192.8,170"  fill="none" stroke="#30363d" stroke-width="1"/>
-
-  <!-- Ring % labels -->
-  <text x="344" y="217" font-family="Courier New, monospace" font-size="11" fill="#484f58">20%</text>
-  <text x="344" y="183" font-family="Courier New, monospace" font-size="11" fill="#484f58">40%</text>
-  <text x="344" y="149" font-family="Courier New, monospace" font-size="11" fill="#484f58">60%</text>
-  <text x="344" y="115" font-family="Courier New, monospace" font-size="11" fill="#484f58">80%</text>
-
-  <!-- Axes -->
-  <line x1="340" y1="255" x2="340"   y2="85"  stroke="#30363d" stroke-width="1"/>
-  <line x1="340" y1="255" x2="487.2" y2="170" stroke="#30363d" stroke-width="1"/>
-  <line x1="340" y1="255" x2="487.2" y2="340" stroke="#30363d" stroke-width="1"/>
-  <line x1="340" y1="255" x2="340"   y2="425" stroke="#30363d" stroke-width="1"/>
-  <line x1="340" y1="255" x2="192.8" y2="340" stroke="#30363d" stroke-width="1"/>
-  <line x1="340" y1="255" x2="192.8" y2="170" stroke="#30363d" stroke-width="1"/>
-
-  <!-- Radar polygon
-       Flutter 80% → (340,119)  Spring 70% → (443,196)  Firebase 60% → (428,306)
-       CleanArch 40% → (340,323)  Java/DSA 50% → (266,298)  AI/LLM 45% → (274,217) -->
-  <polygon points="340,119 443,196 428,306 340,323 266,298 274,217" fill="#7c3aed" fill-opacity="0.18" stroke="#7c3aed" stroke-width="2"/>
-
-  <!-- Vertex dots -->
-  <circle cx="340" cy="119" r="5" fill="#a78bfa"/>
-  <circle cx="443" cy="196" r="5" fill="#a78bfa"/>
-  <circle cx="428" cy="306" r="5" fill="#a78bfa"/>
-  <circle cx="340" cy="323" r="5" fill="#a78bfa"/>
-  <circle cx="266" cy="298" r="5" fill="#a78bfa"/>
-  <circle cx="274" cy="217" r="5" fill="#a78bfa"/>
-
-  <!-- Flutter — top -->
-  <text x="340" y="68" text-anchor="middle" font-family="Courier New, monospace" font-size="13" font-weight="bold" fill="#a78bfa">Flutter</text>
-  <text x="340" y="82" text-anchor="middle" font-family="Courier New, monospace" font-size="11" fill="#6d28d9">80%</text>
-
-  <!-- Spring Boot — top-right -->
-  <text x="500" y="184" text-anchor="start" font-family="Courier New, monospace" font-size="13" font-weight="bold" fill="#a78bfa">Spring Boot</text>
-  <text x="500" y="198" text-anchor="start" font-family="Courier New, monospace" font-size="11" fill="#6d28d9">70%</text>
-
-  <!-- Firebase — bottom-right -->
-  <text x="500" y="312" text-anchor="start" font-family="Courier New, monospace" font-size="13" font-weight="bold" fill="#a78bfa">Firebase</text>
-  <text x="500" y="326" text-anchor="start" font-family="Courier New, monospace" font-size="11" fill="#6d28d9">60%</text>
-
-  <!-- Clean Arch — bottom -->
-  <text x="340" y="448" text-anchor="middle" font-family="Courier New, monospace" font-size="13" font-weight="bold" fill="#a78bfa">Clean Arch</text>
-  <text x="340" y="463" text-anchor="middle" font-family="Courier New, monospace" font-size="11" fill="#6d28d9">40%</text>
-
-  <!-- Java/DSA — bottom-left -->
-  <text x="180" y="312" text-anchor="end" font-family="Courier New, monospace" font-size="13" font-weight="bold" fill="#a78bfa">Java / DSA</text>
-  <text x="180" y="326" text-anchor="end" font-family="Courier New, monospace" font-size="11" fill="#6d28d9">50%</text>
-
-  <!-- AI/LLM — top-left -->
-  <text x="180" y="184" text-anchor="end" font-family="Courier New, monospace" font-size="13" font-weight="bold" fill="#a78bfa">AI / LLM</text>
-  <text x="180" y="198" text-anchor="end" font-family="Courier New, monospace" font-size="11" fill="#6d28d9">45%</text>
-
-</svg>
+| Skill | Proficiency | Level |
+|-------|-------------|-------|
+| 📱 Flutter | ![80%](https://img.shields.io/badge/Flutter-80%25-7c3aed?style=flat-square&labelColor=0d1117&color=7c3aed) | ████████░░ |
+| ⚙️ Spring Boot | ![70%](https://img.shields.io/badge/Spring_Boot-70%25-7c3aed?style=flat-square&labelColor=0d1117&color=6d28d9) | ███████░░░ |
+| 🔥 Firebase | ![60%](https://img.shields.io/badge/Firebase-60%25-7c3aed?style=flat-square&labelColor=0d1117&color=5b21b6) | ██████░░░░ |
+| ☕ Java / DSA | ![50%](https://img.shields.io/badge/Java_/_DSA-50%25-7c3aed?style=flat-square&labelColor=0d1117&color=4c1d95) | █████░░░░░ |
+| 🤖 AI / LLM | ![45%](https://img.shields.io/badge/AI_/_LLM-45%25-7c3aed?style=flat-square&labelColor=0d1117&color=4c1d95) | ████▌░░░░░ |
+| 🏛️ Clean Arch | ![40%](https://img.shields.io/badge/Clean_Arch-40%25-7c3aed?style=flat-square&labelColor=0d1117&color=3b0764) | ████░░░░░░ |
 
 </div>
 
