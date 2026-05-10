@@ -1,251 +1,332 @@
+<!--
+  ██████╗  █████╗ ██╗  ██╗██╗   ██╗██╗
+  ██╔══██╗██╔══██╗██║  ██║██║   ██║██║
+  ██████╔╝███████║███████║██║   ██║██║
+  ██╔══██╗██╔══██║██╔══██║██║   ██║██║
+  ██║  ██║██║  ██║██║  ██║╚██████╔╝███████╗
+  ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝
+  You found the source. Welcome, fellow developer 👋
+-->
+
 <div align="center">
 
-# 👾 Rahul Temkar
-### Flutter & Spring Boot Developer | Building Scalable Mobile Apps
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
+</picture>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-temkar-7a53952b3/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rahultemkar61@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rahul2-5)
-[![Profile Views](https://komarev.com/ghpvc/?username=Rahul2-5&label=Profile%20Views&color=7c3aed&style=for-the-badge)](https://github.com/Rahul2-5)
+</div>
+
+---
+
+<div align="center">
+
+```
+ ██████╗  █████╗ ██╗  ██╗██╗   ██╗██╗     
+ ██╔══██╗██╔══██╗██║  ██║██║   ██║██║     
+ ██████╔╝███████║███████║██║   ██║██║     
+ ██╔══██╗██╔══██║██╔══██║██║   ██║██║     
+ ██║  ██║██║  ██║██║  ██║╚██████╔╝███████╗
+ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝
+  ████████╗███████╗███╗   ███╗██╗  ██╗ █████╗ ██████╗ 
+  ╚══██╔══╝██╔════╝████╗ ████║██║ ██╔╝██╔══██╗██╔══██╗
+     ██║   █████╗  ██╔████╔██║█████╔╝ ███████║██████╔╝
+     ██║   ██╔══╝  ██║╚██╔╝██║██╔═██╗ ██╔══██║██╔══██╗
+     ██║   ███████╗██║ ╚═╝ ██║██║  ██╗██║  ██║██║  ██║
+     ╚═╝   ╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+```
+
+**`Flutter & Spring Boot Developer`** &nbsp;·&nbsp; **`Maharashtra, India 🇮🇳`** &nbsp;·&nbsp; **`MCA @ MET`**
+
+*"I build apps that work — even when the internet doesn't."*
 
 <br/>
 
-```
-█▀▀ █░░ █░█ ▀█▀ ▀█▀ █▀▀ █▀█   █▀▄ █▀▀ █░█ █▀▀ █░░ █▀█ █▀█ █▀▀ █▀█
-█▀░ █▄▄ █▄█ ░█░ ░█░ ██▄ █▀▄   █▄▀ ██▄ ▀▄▀ ██▄ █▄▄ █▄█ █▀▀ ██▄ █▀▄
-```
-
-*Building apps that work — even when the internet doesn't.*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-temkar-7a53952b3/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rahultemkar61@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rahul2-5)
+[![Profile Views](https://komarev.com/ghpvc/?username=Rahul2-5&label=Profile+Views&color=7c3aed&style=for-the-badge)](https://github.com/Rahul2-5)
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
+## `$ whoami`
 
-```kotlin
-data class Developer(
-    val name: String          = "Rahul Temkar",
-    val location: String      = "Maharashtra, India 🇮🇳",
-    val education: List<String> = listOf(
-        "BCA – Yashwantrao Chavan Maharashtra Open University ✅",
-        "MCA – Mumbai Educational Trust (MET) 🎓 [In Progress]"
-    ),
-    val passions: List<String> = listOf(
-        "Offline-First Mobile Architecture 📱",
-        "Secure Backend Systems 🔐",
-        "AI Integration in Apps 🤖",
-        "Clean Code & Scalable Design 🏗️"
-    ),
-    val currentlyExploring: String = "Clean Architecture + State Management + AI",
-    val openTo: String        = "Collaborations, Internships & Impactful Projects"
-)
+```dart
+// rahul_temkar.dart
+
+class RahulTemkar extends Developer {
+
+  final String name     = "Rahul Temkar";
+  final String role     = "Flutter × Spring Boot Developer";
+  final String location = "Maharashtra, India 🇮🇳";
+
+  final List<String> education = [
+    "✅  BCA  —  Yashwantrao Chavan Maharashtra Open University",
+    "🎓  MCA  —  Mumbai Educational Trust (MET)  [In Progress]",
+  ];
+
+  final Map<String, String> focus = {
+    "Mobile"   : "Offline-First Flutter Apps  📱",
+    "Backend"  : "Secure Spring Boot REST APIs  🔐",
+    "Learning" : "Clean Architecture + AI Integration  🤖",
+    "Open To"  : "Collabs · Internships · Impactful Work  🚀",
+  };
+
+  @override
+  String toString() => "Building things that matter, one commit at a time.";
+}
 ```
 
 ---
 
-## 🛠️ Tech Stack
+## `$ cat tech_stack.json`
 
 <div align="center">
 
-**📱 Mobile**
+```json
+{
+  "mobile"   : ["Flutter", "Dart", "Flutter BLoC", "Material UI"],
+  "backend"  : ["Spring Boot", "Spring Security", "REST APIs", "JWT Auth"],
+  "database" : ["MySQL", "Firebase Firestore", "SQLite"],
+  "tools"    : ["Git", "GitHub", "Postman", "Android Studio"],
+  "concepts" : ["Offline-First", "Clean Architecture", "State Management", "AI Integration"]
+}
+```
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Flutter BLoC](https://img.shields.io/badge/Flutter_BLoC-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+</div>
 
-**⚙️ Backend**
+<br/>
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+<div align="center">
 
-**🗄️ Databases**
-
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-
-**🧰 Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white)
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
+## `$ ls -la ./projects`
 
-### 🏥 Offline-First Healthcare App
-> *Bridging the digital divide for rural healthcare workers*
+### 🏥 &nbsp; Offline-First Healthcare App
+> *The internet is a privilege. Healthcare is not.*
 
-A production-grade **Flutter + Spring Boot** application built for **ASHA workers** operating in low-connectivity rural environments. Implements a robust offline-first architecture with automatic background sync.
+ASHA workers in rural India face an invisible problem — they serve patients in areas where the internet is unstable, but every patient record matters. This app solves that with a battle-tested **offline-first architecture**: collect data locally, sync automatically when connectivity returns.
 
 ```
-Flutter (Dart) · Spring Boot · Spring Security · JWT · SQLite · REST API
+📦 Stack  →  Flutter · Spring Boot · Spring Security · JWT · SQLite · REST API
 ```
 
-| Feature | Details |
-|---------|---------|
-| 🔐 Authentication | Stateless JWT-based login & registration |
-| 📋 Patient Records | Full CRUD with local-first persistence |
-| 📴 Offline Mode | SQLite local storage, works without internet |
-| 🔄 Auto Sync | Background data sync on connectivity restore |
-| 🖼️ Media | Image handling with local cache |
-| 🛡️ Security | Spring Security-hardened REST endpoints |
+<details>
+<summary><b>📂 Open project details</b></summary>
 
-**Key Concepts:** Offline-First Architecture · Stateless JWT Auth · Local DB + Server Sync · Secure API Design
+<br/>
+
+| Module | What it does |
+|--------|-------------|
+| 🔐 **Auth** | Stateless JWT login & registration — no session, no risk |
+| 📋 **Records** | Full patient CRUD with local-first persistence |
+| 📴 **Offline Core** | SQLite stores everything — app works with zero internet |
+| 🔄 **Background Sync** | Automatically pushes local data to server on reconnect |
+| 🖼️ **Media** | Image capture & local cache — no cloud dependency |
+| 🛡️ **Security** | Spring Security-hardened API endpoints |
+
+**Architecture concepts applied:**
+`Offline-First` &nbsp;·&nbsp; `Stateless JWT` &nbsp;·&nbsp; `Local DB + Server Sync` &nbsp;·&nbsp; `REST Security` &nbsp;·&nbsp; `Unreliable Network Handling`
+
+</details>
 
 ---
 
-### 💰 Budget Tracker
-> *Take control of your personal finances*
+### 💰 &nbsp; Budget Tracker
+> *Because "where did my money go?" shouldn't be a mystery.*
 
-A Flutter mobile app for tracking expenses, setting monthly budgets, and visualizing spending trends — secured with PIN authentication and powered by Firebase.
+A clean, fast Flutter app for tracking personal finances with real-time analytics — secured with PIN auth and backed by Firebase so your data follows you everywhere.
 
 ```
-Flutter · Firebase Firestore · Firebase Auth · Material Design
+📦 Stack  →  Flutter · Firebase Firestore · Firebase Auth · Material Design
 ```
+
+<details>
+<summary><b>📂 Open project details</b></summary>
+
+<br/>
 
 | Feature | Details |
 |---------|---------|
-| 📊 Analytics | Monthly spending breakdowns & trends |
-| 🗂️ Categories | Organize and tag expenses |
-| 🔒 Security | PIN-based local authentication |
-| ☁️ Sync | Real-time Firebase Firestore backend |
-| 🎨 UI | Clean Material Design interface |
+| 📊 Analytics | Monthly breakdowns, category trends, spending overview |
+| 🗂️ Categories | Tag and organize expenses your way |
+| 🔒 Auth | PIN-based local authentication |
+| ☁️ Backend | Firebase Firestore real-time sync |
+| 🎨 Design | Clean, minimal Material UI |
 
-[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rahul2-5/Budget_Tracker)
+</details>
+
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Rahul2-5/Budget_Tracker)
 
 ---
 
-### 🔐 Encoder-Decoder (DSA Project)
-> *Huffman Encoding from the ground up*
+### 🔐 &nbsp; Encoder-Decoder &nbsp;`[DSA Project]`
+> *Compression algorithms — built from scratch, no shortcuts.*
 
-A Java CLI tool implementing Huffman Encoding and Decoding using a custom-built heap data structure — a deep-dive into compression algorithms and DSA fundamentals.
+A pure Java CLI tool that implements the full Huffman Encoding & Decoding pipeline using a custom heap data structure. No libraries, no shortcuts — just raw DSA.
 
 ```
-Java · Custom Heap · Huffman Algorithm · File Compression · CLI
+📦 Stack  →  Java · Custom Heap · Huffman Algorithm · File Compression · CLI
 ```
+
+<details>
+<summary><b>📂 Open project details</b></summary>
+
+<br/>
 
 | Feature | Details |
 |---------|---------|
-| 🌳 Algorithm | Full Huffman encoding & decoding |
-| 🏗️ Data Structure | Custom heap implementation |
-| 🗜️ Compression | Binary file compression logic |
-| 🖥️ Interface | CLI-based tool |
+| 🌳 Huffman Tree | Built from scratch with custom priority queue |
+| 🏗️ Custom Heap | No Java PriorityQueue — hand-rolled implementation |
+| 🗜️ Compression | Real file size reduction via binary encoding |
+| 🖥️ CLI Interface | Run, encode, decode — all from the terminal |
 
-[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rahul2-5/Encoder-Decoder-Project-DSA-)
+</details>
+
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Rahul2-5/Encoder-Decoder-Project-DSA-)
 
 ---
 
-## 📊 GitHub Stats
+## `$ git log --stat`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Rahul2-5&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="170" />
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rahul2-5&layout=compact&theme=tokyonight&hide_border=true" height="170" />
+<img src="https://github-readme-stats.vercel.app/api?username=Rahul2-5&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" height="175" />
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rahul2-5&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="175" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=Rahul2-5&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com?user=Rahul2-5&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
 
 </div>
 
 ---
 
-## 🎮 Contribution Quest
-
-> *Every commit is a move. Every PR is a boss fight. Keep the streak alive.*
+## `$ cat quest_log.txt`
 
 ```
-╔══════════════════════════════════════════════════════════════╗
-║  🎮  RAHUL'S DEV QUEST — CONTRIBUTION CHRONICLE  🎮          ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║   PLAYER  :  Rahul2-5                  CLASS : Full-Stack    ║
-║   GUILD   :  GitHub                   LVL   : MCA Student   ║
-║                                                              ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║   ⚔️  STATS                                                  ║
-║   ├── Total Contributions  : 166        [Apr 2022 – Now]     ║
-║   ├── Current Streak       : Active     [Keep it going!]     ║
-║   └── Longest Streak       : 5 days     [Apr 13–17, 2025]    ║
-║                                                              ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║   🏆  ACHIEVEMENTS UNLOCKED                                  ║
-║   [★★★] First Commit          — Quest started!              ║
-║   [★★★] Built Offline App     — Real-world impact!          ║
-║   [★★★] Firebase Warrior      — Cloud powers unlocked!      ║
-║   [★★★] DSA Dungeon Cleared   — Huffman boss defeated!      ║
-║   [★★☆] Streak Hunter         — 5-day streak achieved!      ║
-║   [★☆☆] Open Source Knight    — Public repos live!          ║
-║                                                              ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║   🗺️  SKILL TREE                                             ║
-║   Flutter     ████████████████░░░░  80%  [Leveling up!]     ║
-║   Spring Boot ██████████████░░░░░░  70%  [Quest active]     ║
-║   Firebase    ████████████░░░░░░░░  60%  [Side quests]      ║
-║   DSA / Java  ██████████░░░░░░░░░░  50%  [Grinding...]      ║
-║   Clean Arch  ████████░░░░░░░░░░░░  40%  [New chapter]      ║
-║                                                              ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║   📅  CONTRIBUTION MAP  (🟩 = committed · ⬛ = rest day)     ║
-║                                                              ║
-║   Apr'22 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ Quest begins        ║
-║   2023   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ Early grind         ║
-║   2024   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ Projects launch     ║
-║   Apr'25 ⬛⬛⬛⬛⬛⬛⬛⬛⬛🟩🟩🟩🟩🟩⬛⬛⬛⬛  Streak unlocked! ║
-║   Now    ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛  Next streak: ?   ║
-║                                                              ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║   💬  NEXT MISSION                                           ║
-║   > Publish Healthcare App to Play Store                     ║
-║   > Contribute to Open Source Flutter packages               ║
-║   > Achieve a 30-day commit streak                           ║
-║   > Integrate AI features into mobile app                    ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║   ░██████╗░ ██╗   ██╗███████╗███████╗████████╗                      ║
+║   ██╔═══██╗ ██║   ██║██╔════╝██╔════╝╚══██╔══╝                      ║
+║   ██║   ██║ ██║   ██║█████╗  ███████╗   ██║                          ║
+║   ██║▄▄ ██║ ██║   ██║██╔══╝  ╚════██║   ██║                          ║
+║   ╚██████╔╝ ╚██████╔╝███████╗███████║   ██║                          ║
+║    ╚══▀▀═╝   ╚═════╝ ╚══════╝╚══════╝   ╚═╝   L O G                 ║
+║                                                                      ║
+╠══════════════════════════════════════════════════════════════╦═══════╣
+║  PLAYER      Rahul Temkar  /  Rahul2-5                       ║  LVL  ║
+║  CLASS       Mobile + Backend Developer                      ║       ║
+║  GUILD       GitHub                                          ║  ██   ║
+║  REGION      Maharashtra, IN  🇮🇳                             ║  07   ║
+╠══════════════════════════════════════════════════════════════╩═══════╣
+║                                                                      ║
+║  ⚔️  BATTLE STATS                                                     ║
+║                                                                      ║
+║  Total Commits   ██████████████████████████░░░░   166               ║
+║  Longest Streak  █████░░░░░░░░░░░░░░░░░░░░░░░░░   5 days            ║
+║  Public Repos    ████████░░░░░░░░░░░░░░░░░░░░░░   Active            ║
+║  Current Quest   Offline Healthcare App  [ACTIVE]                   ║
+║                                                                      ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                                                                      ║
+║  🏆  ACHIEVEMENTS                                                     ║
+║                                                                      ║
+║  ★★★  OFFLINE ARCHITECT    Built app for zero-internet zones        ║
+║  ★★★  SECURITY GUARDIAN    JWT + Spring Security implemented        ║
+║  ★★★  CLOUD WARRIOR        Firebase Firestore integration done      ║
+║  ★★★  DSA DUNGEON MASTER   Huffman encoder built from scratch       ║
+║  ★★☆  STREAK HUNTER        5-day commit streak achieved             ║
+║  ★★☆  HEALTHCARE HERO      Real-world impact project shipped        ║
+║  ★☆☆  OPEN SOURCE INIT     Public repositories created              ║
+║  ☆☆☆  PLAY STORE LAUNCH    [LOCKED]  — Next mission                 ║
+║  ☆☆☆  30-DAY STREAK        [LOCKED]  — Keep committing!             ║
+║                                                                      ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                                                                      ║
+║  🗺️  SKILL TREE                                                       ║
+║                                                                      ║
+║  Flutter       ████████████████░░░░░░  80%   ▲ ACTIVE               ║
+║  Spring Boot   ██████████████░░░░░░░░  70%   ▲ ACTIVE               ║
+║  Firebase      ████████████░░░░░░░░░░  60%   ● STABLE               ║
+║  Java / DSA    ██████████░░░░░░░░░░░░  50%   ● STABLE               ║
+║  Clean Arch    ████████░░░░░░░░░░░░░░  40%   ▲ STUDYING             ║
+║  AI + ML       ████░░░░░░░░░░░░░░░░░░  20%   ▲ EXPLORING            ║
+║                                                                      ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                                                                      ║
+║  📋  ACTIVE MISSIONS                                                  ║
+║                                                                      ║
+║  [IN PROGRESS]  Complete MCA degree  @  MET                         ║
+║  [IN PROGRESS]  Master Clean Architecture in Flutter                ║
+║  [QUEUED]       Publish Healthcare App to Play Store                ║
+║  [QUEUED]       Achieve 30-day commit streak                        ║
+║  [QUEUED]       Contribute to open-source Flutter packages          ║
+║  [QUEUED]       Integrate AI into a production mobile app           ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## 🧭 What I'm Working On
+## `$ echo $CURRENTLY_EXPLORING`
 
-- 🏗️ Deepening expertise in **Clean Architecture** for Flutter
-- 🤖 Exploring **AI integration** in mobile applications
-- 📡 Building more **offline-first, sync-capable** systems
-- 🔐 Advanced **Spring Security** patterns
+```bash
+> Clean Architecture in Flutter .............. [████████░░] learning
+> State Management (BLoC / Riverpod) ......... [██████████] building
+> AI Integration in Mobile Apps .............. [████░░░░░░] exploring
+> Advanced Spring Security patterns .......... [██████░░░░] deepening
+```
 
 ---
 
-## 🤝 Let's Connect
+## `$ ping rahultemkar61@gmail.com`
 
 <div align="center">
 
-*I'm always open to collaborating on impactful projects, especially those that solve real-world problems.*
+*Open to collabs, internships, and projects that actually make a difference.*
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-temkar-7a53952b3/)
-[![Email](https://img.shields.io/badge/Send_an_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rahultemkar61@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/Let's_Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-temkar-7a53952b3/)
+[![Gmail](https://img.shields.io/badge/Drop_Me_an_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rahultemkar61@gmail.com)
 [![GitHub](https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rahul2-5)
 
 <br/>
 
 ```
-Thanks for visiting! Now go build something awesome. 🚀
+$ exit
+
+> Session ended. Thanks for scrolling this far. 
+> Now go build something that matters. 🚀
 ```
 
+</div>
+
+---
+
+<div align="center">
+<sub>
+  Crafted with ❤️ &nbsp;·&nbsp; Powered by caffeine ☕ &nbsp;·&nbsp; Deployed from Maharashtra 🇮🇳
+</sub>
 </div>
