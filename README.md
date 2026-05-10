@@ -57,12 +57,6 @@
 
 ---
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
-</p>
-
----
-
 ## 🧑‍💻 `whoami`
 
 ```kotlin
@@ -255,172 +249,114 @@ A full-stack AI application that automates corporate expense auditing — detect
 
 <div align="center">
 
-<svg viewBox="0 0 500 420" xmlns="http://www.w3.org/2000/svg" width="500" height="420">
+<svg viewBox="0 0 680 480" xmlns="http://www.w3.org/2000/svg" width="500" height="380">
   <defs>
     <style>
       .bg { fill: #0d1117; }
       .ring { fill: none; stroke: #30363d; stroke-width: 1; }
-      .axis { stroke: #30363d; stroke-width: 1; }
-      .radar-fill { fill: url(#radarGrad); fill-opacity: 0.35; stroke: #7c3aed; stroke-width: 2; }
+      .axis-line { stroke: #30363d; stroke-width: 1; }
+      .radar-fill { fill: #7c3aed; fill-opacity: 0.18; stroke: #7c3aed; stroke-width: 2; }
       .dot { fill: #a78bfa; }
-      .ring-label { fill: #484f58; font-family: 'Courier New', monospace; font-size: 9px; text-anchor: middle; }
-      .skill-label { font-family: 'Courier New', monospace; font-size: 12px; font-weight: bold; }
-      .skill-pct { font-family: 'Courier New', monospace; font-size: 10px; }
-      .title { fill: #e6edf3; font-family: 'Courier New', monospace; font-size: 14px; font-weight: bold; text-anchor: middle; }
-      .subtitle { fill: #484f58; font-family: 'Courier New', monospace; font-size: 10px; text-anchor: middle; }
-      .legend-text { fill: #8b949e; font-family: 'Courier New', monospace; font-size: 10px; }
-      .legend-dot { fill: #a78bfa; }
-      .bar-bg { fill: #21262d; rx: 3; }
-      .bar-fg { fill: url(#barGrad); rx: 3; }
+      .ring-lbl { fill: #484f58; font-family: 'Courier New', monospace; font-size: 11px; }
+      .skill-name { font-family: 'Courier New', monospace; font-size: 13px; font-weight: bold; fill: #a78bfa; }
+      .skill-pct  { font-family: 'Courier New', monospace; font-size: 11px; fill: #6d28d9; }
+      .chart-title { fill: #e6edf3; font-family: 'Courier New', monospace; font-size: 14px; font-weight: bold; text-anchor: middle; }
+      .chart-sub   { fill: #484f58; font-family: 'Courier New', monospace; font-size: 10px; text-anchor: middle; }
     </style>
-    <radialGradient id="radarGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0.1"/>
-    </radialGradient>
-    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#a78bfa"/>
-    </linearGradient>
   </defs>
 
   <!-- Background -->
-  <rect width="500" height="420" fill="#0d1117" rx="12"/>
+  <rect width="680" height="480" fill="#0d1117" rx="12"/>
 
   <!-- Title -->
-  <text x="250" y="28" class="title">◈ SKILL RADAR</text>
-  <text x="250" y="44" class="subtitle">// rahul.temkar — tech proficiency map</text>
-
-  <!-- Radar center -->
-  <!-- 6 skills, hexagon layout. Center: 185,230. Radius rings: 40,80,120,160 -->
-  <!-- Vertices for 6 axes at 60° intervals, starting top (270°) -->
-  <!-- 0: Flutter    top         185, 70   -->
-  <!-- 1: Spring     top-right   324, 150  -->
-  <!-- 2: Firebase   bot-right   324, 310  -->
-  <!-- 3: Clean Arch bottom      185, 390  -->  <!-- pushed down less -->
-  <!-- 4: Java/DSA   bot-left    46, 310   -->
-  <!-- 5: AI/LLM     top-left    46, 150   -->
-
-  <!-- Rings (20%, 40%, 60%, 80%, 100%) -->
-  <polygon points="185,102 273.6,149.5 273.6,245.5 185,293 96.4,245.5 96.4,149.5" class="ring"/>
-  <polygon points="185,134 262.2,179 262.2,269 185,314 107.8,269 107.8,179" class="ring"/>
-  <polygon points="185,102 273.6,149.5 273.6,245.5 185,293 96.4,245.5 96.4,149.5" class="ring" style="transform:scale(0.25) translate(555px,518px)"/>
-
-  <!-- Draw 5 concentric hexagons manually (r = 32,64,96,128,160 from center 185,197) -->
-  <!-- center: cx=185, cy=197 -->
-  <!-- r=32: top=165, tr=(212.7,181), br=(212.7,213), bot=229, bl=(157.3,213), tl=(157.3,181) -->
-  <polygon points="185,165 212.7,181 212.7,213 185,229 157.3,213 157.3,181" class="ring"/>
-  <!-- r=64 -->
-  <polygon points="185,133 240.4,165 240.4,229 185,261 129.6,229 129.6,165" class="ring"/>
-  <!-- r=96 -->
-  <polygon points="185,101 268.1,149 268.1,245 185,293 101.9,245 101.9,149" class="ring"/>
-  <!-- r=128 -->
-  <polygon points="185,69 295.8,133 295.8,261 185,325 74.2,261 74.2,133" class="ring"/>
-  <!-- r=160 (outer) -->
-  <polygon points="185,37 323.5,117 323.5,277 185,357 46.5,277 46.5,117" class="ring"/>
-
-  <!-- Ring labels (%) -->
-  <text x="188" y="161" class="ring-label">20%</text>
-  <text x="188" y="129" class="ring-label">40%</text>
-  <text x="188" y="97" class="ring-label">60%</text>
-  <text x="188" y="65" class="ring-label">80%</text>
-
-  <!-- Axes -->
-  <line x1="185" y1="197" x2="185" y2="37" class="axis"/>
-  <line x1="185" y1="197" x2="323.5" y2="117" class="axis"/>
-  <line x1="185" y1="197" x2="323.5" y2="277" class="axis"/>
-  <line x1="185" y1="197" x2="185" y2="357" class="axis"/>
-  <line x1="185" y1="197" x2="46.5" y2="277" class="axis"/>
-  <line x1="185" y1="197" x2="46.5" y2="117" class="axis"/>
+  <text x="340" y="30" class="chart-title">◈ SKILL RADAR</text>
+  <text x="340" y="46" class="chart-sub">// rahul.temkar — tech proficiency map</text>
 
   <!--
-    Skill values (0–1 fraction of max radius 160):
-    Flutter    0.80 → r=128 → point from center(185,197) upward:    185, 197-128 = 185,69
-    Spring     0.70 → r=112 → top-right at 30°: cx+112*cos(-30°)=185+97=282, cy+112*sin(-30°)=197-56=141 → 282,141
-    Firebase   0.60 → r=96  → bot-right at 30°: 185+96*0.866=268, 197+96*0.5=245 → 268,245  wait use 60° offset
-    Clean Arch 0.40 → r=64  → bottom: 185, 197+64=261
-    Java/DSA   0.50 → r=80  → bot-left: 185-80*0.866=116, 197+80*0.5=237 → 116,237
-    AI/LLM     0.45 → r=72  → top-left: 185-72*0.866=123, 197-72*0.5=161 → 123,161
+    Center: cx=340, cy=255  Max radius: 170
+    Hex vertices at 60° steps starting from top (270° from east):
+      Top        0°:  (340, 255-170)       = (340,  85)
+      Top-right 60°:  (+170*sin60, -170*cos60) = (+147.2, -85) → (487, 170)
+      Bot-right120°:  (+147.2, +85)             → (487, 340)
+      Bottom   180°:  (340, 255+170)       = (340, 425)
+      Bot-left 240°:  (-147.2, +85)             → (193, 340)
+      Top-left 300°:  (-147.2, -85)             → (193, 170)
 
-    Hex axes at angles: top=270°, top-right=330°, bot-right=30°, bot=90°, bot-left=150°, top-left=210°
-    cos/sin (degrees from east, CCW):
-      270° → cos=-0 sin=-1   → (0,-1)
-      330° → cos=0.866 sin=-0.5 → (0.866,-0.5)
-       30° → cos=0.866 sin=0.5  → (0.866, 0.5)
-       90° → cos=0 sin=1        → (0, 1)
-      150° → cos=-0.866 sin=0.5 → (-0.866, 0.5)
-      210° → cos=-0.866 sin=-0.5 → (-0.866,-0.5)
-
-    Flutter 0.80*160=128: 185+128*0=185, 197+128*(-1)=69       → 185,69
-    Spring  0.70*160=112: 185+112*0.866=282, 197+112*(-0.5)=141 → 282,141
-    Firebase 0.60*160=96: 185+96*0.866=268, 197+96*0.5=245     → 268,245
-    CleanArch 0.40*160=64: 185+64*0=185, 197+64*1=261           → 185,261
-    Java/DSA 0.50*160=80: 185+80*(-0.866)=116, 197+80*0.5=237  → 116,237
-    AI/LLM 0.45*160=72: 185+72*(-0.866)=123, 197+72*(-0.5)=161 → 123,161
+    Rings at r = 34(20%), 68(40%), 102(60%), 136(80%), 170(100%)
+    Scale factor from r=170: each ring = fraction * 170
+      r=34:  top=(340,221) tr=(369.4,238) br=(369.4,272) bot=(340,289) bl=(310.6,272) tl=(310.6,238)
+      r=68:  top=(340,187) tr=(398.9,221) br=(398.9,289) bot=(340,323) bl=(281.1,289) tl=(281.1,221)
+      r=102: top=(340,153) tr=(428.3,204) br=(428.3,306) bot=(340,357) bl=(251.7,306) tl=(251.7,204)
+      r=136: top=(340,119) tr=(457.7,187) br=(457.7,323) bot=(340,391) bl=(222.3,323) tl=(222.3,187)
+      r=170: top=(340,85)  tr=(487.2,170) br=(487.2,340) bot=(340,425) bl=(192.8,340) tl=(192.8,170)
   -->
 
-  <!-- Radar filled polygon -->
-  <polygon points="185,69 282,141 268,245 185,261 116,237 123,161" class="radar-fill"/>
+  <!-- Rings -->
+  <polygon class="ring" points="340,221 369.4,238 369.4,272 340,289 310.6,272 310.6,238"/>
+  <polygon class="ring" points="340,187 398.9,221 398.9,289 340,323 281.1,289 281.1,221"/>
+  <polygon class="ring" points="340,153 428.3,204 428.3,306 340,357 251.7,306 251.7,204"/>
+  <polygon class="ring" points="340,119 457.7,187 457.7,323 340,391 222.3,323 222.3,187"/>
+  <polygon class="ring" points="340,85 487.2,170 487.2,340 340,425 192.8,340 192.8,170"/>
 
-  <!-- Dots at each vertex -->
-  <circle cx="185" cy="69"  r="5" class="dot"/>
-  <circle cx="282" cy="141" r="5" class="dot"/>
-  <circle cx="268" cy="245" r="5" class="dot"/>
-  <circle cx="185" cy="261" r="5" class="dot"/>
-  <circle cx="116" cy="237" r="5" class="dot"/>
-  <circle cx="123" cy="161" r="5" class="dot"/>
+  <!-- Ring % labels -->
+  <text x="344" y="217" class="ring-lbl">20%</text>
+  <text x="344" y="183" class="ring-lbl">40%</text>
+  <text x="344" y="149" class="ring-lbl">60%</text>
+  <text x="344" y="115" class="ring-lbl">80%</text>
 
-  <!-- Skill Labels -->
+  <!-- Axes -->
+  <line x1="340" y1="255" x2="340"   y2="85"  class="axis-line"/>
+  <line x1="340" y1="255" x2="487.2" y2="170" class="axis-line"/>
+  <line x1="340" y1="255" x2="487.2" y2="340" class="axis-line"/>
+  <line x1="340" y1="255" x2="340"   y2="425" class="axis-line"/>
+  <line x1="340" y1="255" x2="192.8" y2="340" class="axis-line"/>
+  <line x1="340" y1="255" x2="192.8" y2="170" class="axis-line"/>
+
+  <!--
+    Skill points (fraction of r=170):
+    Flutter    0.80 → r=136 → top:       (340, 255-136)              = (340, 119)
+    Spring     0.70 → r=119 → top-right: (340+119*0.866, 255-119*0.5) = (443, 196)
+    Firebase   0.60 → r=102 → bot-right: (340+102*0.866, 255+102*0.5) = (428, 306)
+    CleanArch  0.40 → r=68  → bottom:    (340, 255+68)               = (340, 323)
+    Java/DSA   0.50 → r=85  → bot-left:  (340-85*0.866, 255+85*0.5)  = (266, 298)
+    AI/LLM     0.45 → r=76.5→ top-left:  (340-76.5*0.866, 255-76.5*0.5) = (274, 217)
+  -->
+
+  <!-- Radar polygon -->
+  <polygon class="radar-fill" points="340,119 443,196 428,306 340,323 266,298 274,217"/>
+
+  <!-- Vertex dots -->
+  <circle cx="340" cy="119" r="5" class="dot"/>
+  <circle cx="443" cy="196" r="5" class="dot"/>
+  <circle cx="428" cy="306" r="5" class="dot"/>
+  <circle cx="340" cy="323" r="5" class="dot"/>
+  <circle cx="266" cy="298" r="5" class="dot"/>
+  <circle cx="274" cy="217" r="5" class="dot"/>
+
+  <!-- Labels -->
   <!-- Flutter — top -->
-  <text x="185" y="22" class="skill-label" fill="#a78bfa" text-anchor="middle">Flutter</text>
-  <text x="185" y="34" class="skill-pct" fill="#6d28d9" text-anchor="middle">80%</text>
+  <text x="340" y="68" class="skill-name" text-anchor="middle">Flutter</text>
+  <text x="340" y="82" class="skill-pct"  text-anchor="middle">80%</text>
 
-  <!-- Spring Boot — top right -->
-  <text x="348" y="120" class="skill-label" fill="#a78bfa" text-anchor="start">Spring Boot</text>
-  <text x="348" y="132" class="skill-pct" fill="#6d28d9" text-anchor="start">70%</text>
+  <!-- Spring Boot — top-right -->
+  <text x="500" y="184" class="skill-name" text-anchor="start">Spring Boot</text>
+  <text x="500" y="198" class="skill-pct"  text-anchor="start">70%</text>
 
-  <!-- Firebase — bottom right -->
-  <text x="348" y="270" class="skill-label" fill="#a78bfa" text-anchor="start">Firebase</text>
-  <text x="348" y="282" class="skill-pct" fill="#6d28d9" text-anchor="start">60%</text>
+  <!-- Firebase — bottom-right -->
+  <text x="500" y="312" class="skill-name" text-anchor="start">Firebase</text>
+  <text x="500" y="326" class="skill-pct"  text-anchor="start">60%</text>
 
   <!-- Clean Arch — bottom -->
-  <text x="185" y="382" class="skill-label" fill="#a78bfa" text-anchor="middle">Clean Arch</text>
-  <text x="185" y="394" class="skill-pct" fill="#6d28d9" text-anchor="middle">40%</text>
+  <text x="340" y="448" class="skill-name" text-anchor="middle">Clean Arch</text>
+  <text x="340" y="463" class="skill-pct"  text-anchor="middle">40%</text>
 
-  <!-- Java/DSA — bottom left -->
-  <text x="22" y="270" class="skill-label" fill="#a78bfa" text-anchor="end">Java / DSA</text>
-  <text x="22" y="282" class="skill-pct" fill="#6d28d9" text-anchor="end">50%</text>
+  <!-- Java/DSA — bottom-left -->
+  <text x="180" y="312" class="skill-name" text-anchor="end">Java / DSA</text>
+  <text x="180" y="326" class="skill-pct"  text-anchor="end">50%</text>
 
-  <!-- AI / LLM — top left -->
-  <text x="22" y="120" class="skill-label" fill="#a78bfa" text-anchor="end">AI / LLM</text>
-  <text x="22" y="132" class="skill-pct" fill="#6d28d9" text-anchor="end">45%</text>
-
-  <!-- Divider -->
-  <line x1="30" y1="372" x2="470" y2="372" stroke="#21262d" stroke-width="1"/>
-
-  <!-- Legend bar chart -->
-  <text x="30" y="390" class="legend-text">Flutter</text>
-  <rect x="90" y="382" width="90" height="7" fill="#21262d" rx="3"/>
-  <rect x="90" y="382" width="72" height="7" fill="url(#barGrad)" rx="3"/>
-
-  <text x="200" y="390" class="legend-text">Spring</text>
-  <rect x="250" y="382" width="90" height="7" fill="#21262d" rx="3"/>
-  <rect x="250" y="382" width="63" height="7" fill="url(#barGrad)" rx="3"/>
-
-  <text x="360" y="390" class="legend-text">Firebase</text>
-  <rect x="410" y="382" width="60" height="7" fill="#21262d" rx="3"/>
-  <rect x="410" y="382" width="36" height="7" fill="url(#barGrad)" rx="3"/>
-
-  <text x="30" y="408" class="legend-text">CleanArch</text>
-  <rect x="100" y="400" width="90" height="7" fill="#21262d" rx="3"/>
-  <rect x="100" y="400" width="36" height="7" fill="url(#barGrad)" rx="3"/>
-
-  <text x="210" y="408" class="legend-text">Java/DSA</text>
-  <rect x="265" y="400" width="90" height="7" fill="#21262d" rx="3"/>
-  <rect x="265" y="400" width="45" height="7" fill="url(#barGrad)" rx="3"/>
-
-  <text x="375" y="408" class="legend-text">AI/LLM</text>
-  <rect x="415" y="400" width="60" height="7" fill="#21262d" rx="3"/>
-  <rect x="415" y="400" width="27" height="7" fill="url(#barGrad)" rx="3"/>
+  <!-- AI/LLM — top-left -->
+  <text x="180" y="184" class="skill-name" text-anchor="end">AI / LLM</text>
+  <text x="180" y="198" class="skill-pct"  text-anchor="end">45%</text>
 </svg>
 
 </div>
