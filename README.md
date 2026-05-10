@@ -243,22 +243,8 @@ A full-stack AI application that automates corporate expense auditing — detect
   🎯  goal      →  Play Store launch + 30-day commit streak
 ```
 
----
 
-## 📡 Skill Proficiency
 
-<div align="center">
-
-| Skill | Proficiency | Level |
-|-------|-------------|-------|
-| 📱 Flutter | ![80%](https://img.shields.io/badge/Flutter-80%25-7c3aed?style=flat-square&labelColor=0d1117&color=7c3aed) | ████████░░ |
-| ⚙️ Spring Boot | ![70%](https://img.shields.io/badge/Spring_Boot-70%25-7c3aed?style=flat-square&labelColor=0d1117&color=6d28d9) | ███████░░░ |
-| 🔥 Firebase | ![60%](https://img.shields.io/badge/Firebase-60%25-7c3aed?style=flat-square&labelColor=0d1117&color=5b21b6) | ██████░░░░ |
-| ☕ Java / DSA | ![50%](https://img.shields.io/badge/Java_/_DSA-50%25-7c3aed?style=flat-square&labelColor=0d1117&color=4c1d95) | █████░░░░░ |
-| 🤖 AI / LLM | ![45%](https://img.shields.io/badge/AI_/_LLM-45%25-7c3aed?style=flat-square&labelColor=0d1117&color=4c1d95) | ████▌░░░░░ |
-| 🏛️ Clean Arch | ![40%](https://img.shields.io/badge/Clean_Arch-40%25-7c3aed?style=flat-square&labelColor=0d1117&color=3b0764) | ████░░░░░░ |
-
-</div>
 
 ---
 
