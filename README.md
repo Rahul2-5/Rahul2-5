@@ -3,31 +3,44 @@
   Welcome to Rahul's README. Glad you're here.
 -->
 
+```
+[boot]  initializing profile.sys ...
+[ok]    loading developer  → Rahul Temkar
+[ok]    modules mounted    → flutter · spring-boot · ai
+[ok]    location           → Maharashtra, India 🇮🇳
+[ready] system online
+```
+
 <h1 align="center">
-  Hey there!
   <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="32px" />
   I'm Rahul Temkar
 </h1>
 
-<h3 align="center">Flutter × Spring Boot Developer &nbsp;|&nbsp; Building apps that work — even when the internet doesn't 📡</h3>
+<h3 align="center">root@rahul:~# Flutter × Spring Boot Developer &nbsp;|&nbsp; Building apps that work — even when the internet doesn't 📡</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-online-39FF14?style=flat-square" />
+  <img src="https://img.shields.io/badge/focus-shipping%20code-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/fuel-coffee-6F4E37?style=flat-square&logo=buymeacoffee&logoColor=white" />
+</p>
 
 <br/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=1000&color=7C3AED&center=true&vCenter=true&width=680&lines=Flutter+%2B+Spring+Boot+%3D+%E2%9D%A4%EF%B8%8F;Building+offline-first+mobile+apps+%F0%9F%93%B1;Secure+backends+with+JWT+%2B+Spring+Security+%F0%9F%94%90;Clean+Architecture+%7C+State+Management+%7C+AI+%F0%9F%A4%96;MCA+Student+%40+MET%2C+Maharashtra+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=1000&color=39FF14&center=true&vCenter=true&width=680&lines=root%40rahul%3A~%24+whoami;Flutter+%2B+Spring+Boot+%3D+%E2%9D%A4%EF%B8%8F;Compiling+offline-first+mobile+apps+%F0%9F%93%B1;Encrypting+backends+with+JWT+%2B+Spring+Security+%F0%9F%94%90;%5BOK%5D+Clean+Architecture+%7C+State+Management+%7C+AI+%F0%9F%A4%96;MCA+Student+%40+MET%2C+Maharashtra+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
 </p>
 
 <br/>
 
 <img align="right" alt="Coding" width="380" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
+## ░▒▓ ABOUT ▓▒░
 
-# 💫 About Me:
 BCA Grad | MCA @ MET '27<br>📱 Flutter Developer<br>⚙️ Full Stack App Developer Intern @ GROBIIT<br>☕ Spring Boot • REST APIs<br>🔐 Secure Auth & Backend Architecture<br>🤖 AI Integration • Clean Architecture<br>🚀 Building real-world solutions
 
 <br/>
 
-### 📫 Let's Connect!
+### 📡 Establish Connection
 
 <p align="left">
   <a href="mailto:rahultemkar61@gmail.com">
@@ -44,37 +57,59 @@ BCA Grad | MCA @ MET '27<br>📱 Flutter Developer<br>⚙️ Full Stack App Deve
     <img src="https://img.shields.io/badge/GitHub-Rahul2--5-181717?style=flat&logo=github&logoColor=white" />
   </a>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Rahul2-5&label=profile+views&color=7c3aed&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=Rahul2-5&label=profile+views&color=39ff14&style=flat" />
 </p>
 
 <br clear="right"/>
 
 ---
 
-## 🧑‍💻 `whoami`
+## ░▒▓ SYSTEM INFO ▓▒░
 
-```kotlin
-data class Developer(
-    val name              = "Rahul Temkar",
-    val location          = "Maharashtra, India 🇮🇳",
-    val education         = listOf(
-        "✅  BCA  —  Yashwantrao Chavan Maharashtra Open University",
-        "🎓  MCA  —  Mumbai Educational Trust (MET)  [In Progress]"
-    ),
-    val currentlyBuilding = "Offline-First Healthcare App for ASHA workers",
-    val learning          = "Clean Architecture · State Management · AI in Mobile",
-    val funFact           = "I make apps that work in places with no internet 📴"
-)
+```bash
+rahul@devbox:~$ neofetch
+
+----------------------------------------------------
+ OS          : Maharashtra, India 🇮🇳
+ Host        : MET, Mumbai — MCA '27 (in progress)
+ Shell       : Flutter + Spring Boot
+ Toolchain   : Dart · Java · REST APIs · JWT
+ Uptime      : BCA '22 → Present
+ Building    : Offline-First Healthcare App
+ Studying    : Clean Architecture patterns in Flutter
+ Exploring   : AI integration in mobile + LLM pipelines
+ Status      : [ONLINE] shipping code 🟢
+----------------------------------------------------
 ```
 
 ---
 
-# 💻 Tech Stack:
-![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=flat&logo=dart&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat&logo=firebase) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=flat&logo=heroku&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=flat&logo=render&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=flat&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=flat&logo=notion&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=flat&logo=swagger&logoColor=white)
+## ░▒▓ TECH STACK ▓▒░
 
-## 🚀 Featured Projects
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=flat&logo=dart&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat&logo=firebase) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=flat&logo=heroku&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=flat&logo=render&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=flat&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=flat&logo=notion&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=flat&logo=swagger&logoColor=white)
 
-### 🏥 Offline-First Healthcare App
+---
+
+## ░▒▓ ACTIVE OBJECTIVES ▓▒░
+
+```
+┌─ MISSION BOARD ────────────────────────────────────┐
+│ [x] Ship Offline-First Healthcare App MVP           │
+│ [x] Build AutoAuditor — AI expense audit pipeline   │
+│ [ ] Play Store launch                                │
+│ [ ] RAG-based audit chat                             │
+│ [ ] Open source contributions                        │
+│ [ ] 30-day commit streak                              │
+└───────────────────────────────────────────────────────┘
+```
+
+---
+
+## ░▒▓ FEATURED PROJECTS ▓▒░
+
+### 🏥 CASE 01 — Offline-First Healthcare App
+![Status](https://img.shields.io/badge/status-shipped-39FF14?style=flat-square)
+
 > *"The internet is a privilege. Healthcare is not."*
 
 Built for **ASHA workers in rural India** — this Flutter + Spring Boot app works completely offline, stores patient data in SQLite, and syncs automatically when connectivity returns.
@@ -87,7 +122,7 @@ Built for **ASHA workers in rural India** — this Flutter + Spring Boot app wor
 </p>
 
 <details>
-<summary>📂 <b>View features</b></summary>
+<summary>🗂️ <b>View case details</b></summary>
 <br/>
 
 | Feature | Details |
@@ -103,7 +138,9 @@ Built for **ASHA workers in rural India** — this Flutter + Spring Boot app wor
 
 ---
 
-### 💰 Budget Tracker
+### 💰 CASE 02 — Budget Tracker
+![Status](https://img.shields.io/badge/status-shipped-39FF14?style=flat-square)
+
 > *Because "where did my money go?" shouldn't be a mystery.*
 
 <p>
@@ -118,7 +155,9 @@ Track expenses, set budgets, and visualise spending — with PIN auth and real-t
 
 ---
 
-### 🤖 AutoAuditor — AI Expense Auditor Agent
+### 🤖 CASE 03 — AutoAuditor — AI Expense Auditor Agent
+![Status](https://img.shields.io/badge/status-active-FFD700?style=flat-square)
+
 > *"Corporate expenses audited in seconds, not weeks."*
 
 A full-stack AI application that automates corporate expense auditing — detecting fraud, flagging policy violations, and delivering real-time analytics through an intelligent multi-phase pipeline. Upload a CSV, get a complete audit report with AI-generated insights.
@@ -132,7 +171,7 @@ A full-stack AI application that automates corporate expense auditing — detect
 </p>
 
 <details>
-<summary>📂 <b>View features</b></summary>
+<summary>🗂️ <b>View case details</b></summary>
 <br/>
 
 | Phase | What happens |
@@ -151,14 +190,15 @@ A full-stack AI application that automates corporate expense auditing — detect
 
 ---
 
-# 📊 GitHub Stats:
+## ░▒▓ GITHUB STATS ▓▒░
+
 ![](https://github-readme-stats.shion.dev/api?username=Rahul2-5&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://streak-stats.demolab.com/?user=Rahul2-5&theme=chartreuse-dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Rahul2-5&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
 
-## 🛤️ My Dev Journey
+## ░▒▓ DEV JOURNEY LOG ▓▒░
 
 ```
   2022                   2023                   2024                   2025
@@ -202,12 +242,9 @@ A full-stack AI application that automates corporate expense auditing — detect
   🎯  goal      →  Play Store launch + 30-day commit streak
 ```
 
-
-
-
 ---
 
-## 🐍 Contribution Snake
+## ░▒▓ CONTRIBUTION SNAKE ▓▒░
 
 <p align="center">
   <picture>
@@ -218,6 +255,11 @@ A full-stack AI application that automates corporate expense auditing — detect
 </p>
 
 ---
+
+```
+rahul@devbox:~$ exit
+[connection closed]
+```
 
 <p align="center">
   <i>Thanks for visiting! Go build something that matters. 🚀</i>
