@@ -4,9 +4,6 @@
 -->
 
 <div align="center">
-
-<img src="https://avatars.githubusercontent.com/u/103044699?v=4" width="150" alt="Rahul Temkar" />
-
 # Rahul Temkar
 
 **Flutter × Spring Boot Developer** · building apps that work — even when the internet doesn't 📡
